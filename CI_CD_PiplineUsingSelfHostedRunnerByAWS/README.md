@@ -476,4 +476,12 @@ Once deployed, access the application at:
 ```
 http://YOUR_EC2_PUBLIC_IP:3000       → Hello World page
 http://YOUR_EC2_PUBLIC_IP:3000/api   → JSON response
+
+
+---
+
+## Author
+
+**Salauddin**  
+Software Developer
 ```
