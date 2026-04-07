@@ -67,25 +67,19 @@ A comprehensive guide to deploy Django NewsPortal on EC2/VPS with full monitorin
 |   +-------------+                           +-------------+                 |
 |                                                                              |
 +==============================================================================+
+### Component Details
 
-================================================================================
-                            COMPONENT DETAILS
-================================================================================
-
-+----------------+----------+-----------------------------------------------+
-|   Component    |   Port   |              Description                       |
-+----------------+----------+-----------------------------------------------+
-| Nginx          | 80       | Reverse proxy for Django application          |
-| Django         | 8000     | NewsPortal web application                    |
-| PostgreSQL     | 5432     | Database (optional)                           |
-| Prometheus     | 9090     | Metrics collection and storage                |
-| Node Exporter  | 9100     | Server metrics (CPU, RAM, Disk, Network)      |
-| Loki           | 3100     | Log aggregation system                        |
-| Promtail       | -        | Log shipping agent                            |
-| Grafana        | 3000     | Visualization dashboard                       |
-| AlertManager   | 9093     | Alert routing and notifications               |
-+----------------+----------+-----------------------------------------------+
----
+| Component | Port | Description |
+|-----------|------|-------------|
+| Nginx | 80 | Reverse proxy for Django application |
+| Django | 8000 | NewsPortal web application |
+| PostgreSQL | 5432 | Database (optional) |
+| Prometheus | 9090 | Metrics collection and storage |
+| Node Exporter | 9100 | Server metrics (CPU, RAM, Disk, Network) |
+| Loki | 3100 | Log aggregation system |
+| Promtail | - | Log shipping agent |
+| Grafana | 3000 | Visualization dashboard |
+| AlertManager | 9093 | Alert routing and notifications |
 
 ## Prerequisites
 
